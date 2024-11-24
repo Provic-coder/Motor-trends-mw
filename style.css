@@ -61,7 +61,7 @@ html{
 .main{
     display: flex;
     flex-direction: column;
-    /* border: 1px solid #fff; */
+    /*border: 1px solid #fff; */
     align-items: center;
     position: absolute;
     top: 30%;
@@ -69,7 +69,7 @@ html{
 }
 .headings{
     font-family: century;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     margin: 40px 0px;
 }
@@ -221,7 +221,7 @@ html{
     margin: 20px 0;
 }
 .social-media a i:hover {
-    color: #4776fd;
+    color: white;
 }
 #contact-me p{
     text-align: center;
@@ -260,4 +260,18 @@ html{
     border-radius:5px;
     cursor: pointer;
     transition: .9s ease;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+button:hover, a:hover {
+    background-color: #0077ff;
+    color: white;
+    transition: 0.3s ease;
+}
+@media screen and (max-width:786px) {
+    .form, .social-media{
+        flex-direction: column;
+        align-items:center;
+    }
 }
